@@ -1,7 +1,7 @@
 var generateRandom = function (min, max) {
     var ranNum = Math.floor(Math.random()*(max-min+1)) + min;
     return ranNum;
-  } 
+  }
 
  let random =  generateRandom(0,1500);
  window.onload = function(){
@@ -36,4 +36,3 @@ function entrance(){
         },3500)
     },2000)
 }
-
